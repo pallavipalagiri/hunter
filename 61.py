@@ -1,4 +1,4 @@
-a=int(input())
+p=int(input())
 b=list(map(int,input().split()))
 c,d=map(int,input().split())
 e=[]
