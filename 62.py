@@ -1,8 +1,8 @@
 a=int(input())
 b=list(map(int,input().split()))
-c=[]
+p=[]
 for i in range(a):
     for j in range(a):
         if(j>i):
-            c.append(b[j]-b[i])
-print(max(c))
+            p.append(b[j]-b[i])
+print(max(p))
